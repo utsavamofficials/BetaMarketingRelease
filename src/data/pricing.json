@@ -1,0 +1,43 @@
+{
+  "currency": "INR",
+  "plans": [
+    {
+      "id": "base",
+      "name": "Base",
+      "tagline": "For a single mandal running one collection point.",
+      "admins": 1,
+      "collectors": 2,
+      "activeSeasonMonths": 3,
+      "dataRetentionMonths": 12,
+      "priceAnnualInr": 4999,
+      "features": [
+        "1 Organizer admin account",
+        "Up to 2 Donation Collector seats",
+        "Unlimited digital receipts during season",
+        "QR-based receipt retrieval",
+        "12 months of reports & data access",
+        "Email support"
+      ],
+      "highlighted": false
+    },
+    {
+      "id": "satisfy",
+      "name": "Satisfy",
+      "tagline": "For larger mandals collecting across multiple spots.",
+      "admins": 4,
+      "collectors": 7,
+      "activeSeasonMonths": 3,
+      "dataRetentionMonths": 12,
+      "priceAnnualInr": 12999,
+      "features": [
+        "Up to 4 Organizer admin accounts",
+        "Up to 7 Donation Collector seats",
+        "Unlimited digital receipts during season",
+        "QR-based receipt retrieval",
+        "12 months of reports & data access",
+        "Priority email support"
+      ],
+      "highlighted": true
+    }
+  ]
+}
