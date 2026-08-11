@@ -1,7 +1,6 @@
-import { Hero } from '../components/marketing/Hero';
+
 import { HowItWorks } from '../components/marketing/HowItWorks';
 import { FeatureGrid } from '../components/marketing/FeatureGrid';
-import { CTASection } from '../components/marketing/CTASection';
 import { DeveloperSection } from '../components/marketing/DeveloperSection';
 import { SectionHeading } from '../components/ui/SectionHeading';
 import { PricingTable } from '../components/marketing/PricingTable';
@@ -9,6 +8,7 @@ import { Reveal } from '../components/ui/Reveal';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { ROUTES } from '../constants/routes';
+import Hero from '../components/marketing/Hero';
 
 export function MarketingPage() {
   return (

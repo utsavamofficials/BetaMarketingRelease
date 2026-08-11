@@ -11,4 +11,5 @@ export const ROUTES = {
   receipt: '/receipt/:receiptId',
   receiptFor: (receiptId: string) => `/receipt/${receiptId}`,
   notFound: '/404',
+  release: 'release',
 } as const;

@@ -1,0 +1,57 @@
+{
+  "release": {
+    "title": "Utsavam Portal",
+    "version": "v1.0.0", 
+    "targetTimestamp": "2026-07-15T00:00:00+05:30",
+    "status": "NOTRELEASED",
+    "portalUrl": "https://utsavam-portal.netlify.app",
+    "support": {
+      "label": "Need help? Talk to us",
+      "email": "hello@utsavam.app"
+    },
+    "banner": {
+      "enabled": true,
+      "message": "Utsavam Portal launches for every mandal this Ganeshotsav — registrations will open soon."
+    },
+    "messaging": {
+      "preRelease": {
+        "eyebrow": "Launching season for Ganeshotsav 2026",
+        "headline": "The Portal Arrives Soon",
+        "subheadline": "A refined home for every mandal — donations, digital receipts, and season reporting, reimagined. We're putting the final touches on Utsavam Portal.",
+        "announcement": "Registered mandals will be notified the moment the portal goes live. No action needed on your part."
+      },
+      "postRelease": {
+        "eyebrow": "Now Live",
+        "headline": "Utsavam Portal is Live!",
+        "subheadline": "Every donation, every receipt, every season — all in one place. Step inside and set up your mandal.",
+        "announcement": "Welcome to the full Utsavam experience."
+      }
+    },
+    "features": [
+      {
+        "id": "receipts",
+        "icon": "sparkle",
+        "title": "Instant Digital Receipts",
+        "description": "Every donation becomes a shareable, QR-verified receipt in seconds — no app or account needed for donors."
+      },
+      {
+        "id": "collectors",
+        "icon": "shield",
+        "title": "Trusted Collector Access",
+        "description": "Seat-limited, PIN-protected accounts for every volunteer working the mandap."
+      },
+      {
+        "id": "reports",
+        "icon": "zap",
+        "title": "Real-Time Collection Reports",
+        "description": "Live totals by collector, exportable data, and a full season of history."
+      },
+      {
+        "id": "branding",
+        "icon": "gift",
+        "title": "Your Mandal's Identity",
+        "description": "Custom colors and branding carried through every receipt you issue this season."
+      }
+    ]
+  }
+}

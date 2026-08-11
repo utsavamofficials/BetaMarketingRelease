@@ -1,11 +1,11 @@
 {
     "mail": [
         {
-            "SMTP": "Server: smtp.gmail.com",
+            "SMTP": "smtp.gmail.com",
             "Username": "utsavamofficials@gmail.com",
             "Password": "zvne zogg lwzb fcqu",
-            "Port": "587 (with TLS/STARTTLS) or 465 (with SSL)",
-            "Authentication": "Enabled / Required"
+            "Port": "465",
+            "Authentication": "Enabled"
         }
     ]
 }

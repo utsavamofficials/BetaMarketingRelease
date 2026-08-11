@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { Menu, X, Sparkles } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { ROUTES } from '../../constants/routes';
 import { APP_NAME } from '../../constants/app';
 import { Button } from '../ui/Button';

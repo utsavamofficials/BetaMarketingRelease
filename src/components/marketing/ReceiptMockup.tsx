@@ -1,4 +1,4 @@
-import { HeartHandshake, QrCode, Sparkles } from "lucide-react";
+import { QrCode, Sparkles } from "lucide-react";
 import logo from "../../assets/logoCircleNoBg.png";
 
 /**

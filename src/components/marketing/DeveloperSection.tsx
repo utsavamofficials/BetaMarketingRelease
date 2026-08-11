@@ -1,7 +1,6 @@
 import {
   ArrowUpRight,
   Github,
-  GraduationCap,
   Linkedin,
   Mail,
   MapPin,
