@@ -2,9 +2,9 @@
   "release": {
     "title": "Utsavam Portal",
     "version": "v1.0.0", 
-    "targetTimestamp": "2026-08-15T00:00:00+05:30",
+    "targetTimestamp": "2026-08-13T14:40:00+05:30",
     "status": "NOTRELEASED",
-    "portalUrl": "https://utsavam-portal.netlify.app",
+    "portalUrl": "http://localhost:5001/",
     "support": {
       "label": "Need help? Talk to us",
       "email": "hello@utsavam.app"
