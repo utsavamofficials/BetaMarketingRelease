@@ -1,7 +1,7 @@
 
 import { HowItWorks } from '../components/marketing/HowItWorks';
 import { FeatureGrid } from '../components/marketing/FeatureGrid';
-import { DeveloperSection } from '../components/marketing/DeveloperSection';
+// import { DeveloperSection } from '../components/marketing/DeveloperSection';
 import { SectionHeading } from '../components/ui/SectionHeading';
 import { PricingTable } from '../components/marketing/PricingTable';
 import { Reveal } from '../components/ui/Reveal';
@@ -32,7 +32,7 @@ export function MarketingPage() {
       </section>
 
       {/* <CTASection /> */}
-      <DeveloperSection />
+      {/* <DeveloperSection /> */}
     </>
   );
 }
