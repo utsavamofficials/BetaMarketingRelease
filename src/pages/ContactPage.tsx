@@ -28,8 +28,8 @@ export function ContactPage() {
     {
       icon: Instagram,
       label: 'Follow us',
-      value: '@utsavam_officials',
-      href: 'https://instagram.com/utsavam_officials',
+      value: '@utsavam_official',
+      href: 'https://instagram.com/utsavam_official',
       description: 'Connect with us on Instagram',
     },
   ];
