@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
-import { Sparkles, Mail, MapPin } from 'lucide-react';
+import { Mail, MapPin, Phone } from 'lucide-react';
 import { ROUTES } from '../../constants/routes';
 import { APP_NAME, APP_TAGLINE } from '../../constants/app';
+import logo from '../../assets/logoCircleNoBg.png';
 
 export function Footer() {
   return (
@@ -9,10 +10,10 @@ export function Footer() {
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-[1.4fr_1fr_1fr]">
         <div>
           <div className="flex items-center gap-2 text-[var(--text-h)]">
-            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[var(--accent)] text-white">
-              <Sparkles className="h-4 w-4" aria-hidden="true" />
+            <span className="">
+              <img src={logo} alt="" className="flex h-15 w-15 items-center justify-center rounded-full text-white"  />
             </span>
-            <span className="text-base font-semibold">{APP_NAME}</span>
+            <span className="text-base font-bold uppercase">{APP_NAME}</span>
           </div>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-[var(--text)]">{APP_TAGLINE}</p>
           <p className="mt-4 flex items-center gap-2 text-sm text-[var(--text)]">
@@ -34,10 +35,15 @@ export function Footer() {
           <h3 className="text-sm font-semibold text-[var(--text-h)]">Support</h3>
           <ul className="mt-3 space-y-2 text-sm text-[var(--text)]">
             <li><Link to={ROUTES.contact} className="hover:text-[var(--accent)]">Contact us</Link></li>
-            <li><Link to={ROUTES.collectorLogin} className="hover:text-[var(--accent)]">Collector login</Link></li>
+            <li className="flex items-center gap-2">
+              <Phone className="h-4 w-4 shrink-0" aria-hidden="true" /> 
+              {/* <Link to="tel:+917768968321" className="hover:text-[var(--accent)]">+91 77689 68321</Link> */}
+              <Link to="tel:+917385975192" className="hover:text-[var(--accent)]">+91 73859 75192</Link>
+              </li>
             <li className="flex items-center gap-2">
               <Mail className="h-4 w-4 shrink-0" aria-hidden="true" /> 
-              <Link to="mailto:utsavamofficials@gmail.com" className="hover:text-[var(--accent)]">utsavamofficials@gmail.com</Link>
+              <Link to="mailto:utsavamofficials@gmail.com" className="hover:text-[var(--accent)]">utsavamofficials@gmail.com
+              </Link>
               </li>
           </ul>
         </div>
