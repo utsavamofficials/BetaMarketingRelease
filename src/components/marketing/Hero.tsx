@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { ArrowRight, PlayCircle, QrCode } from "lucide-react";
+import { PlayCircle, QrCode } from "lucide-react";
 
 import { Button } from "../ui/Button";
 import { ROUTES } from "../../constants/routes";
@@ -64,12 +64,12 @@ const Hero = () => {
             </Button>
           </Link>
 
-          <Link to={ROUTES.organizerRegister}>
+          {/* <Link to={ROUTES.organizerRegister}>
             <Button size="lg" variant="outline">
               Register your mandal
               <ArrowRight className="h-4 w-4" />
             </Button>
-          </Link>
+          </Link> */}
         </motion.div>
 
         {/* Receipt Preview */}

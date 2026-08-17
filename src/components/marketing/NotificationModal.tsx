@@ -3,6 +3,7 @@ import type { FormEvent } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Check, Heart, Star, X } from "lucide-react";
 import { sendNotificationMail } from "../../services/mailService";
+import { sendNotificationData } from "../../services/backendService";
 
 interface NotificationModalProps {
   open: boolean;
@@ -63,6 +64,13 @@ export function NotificationModal({ open, onClose }: NotificationModalProps) {
         message: message.trim(),
         excitement,
       });
+
+      await sendNotificationData({ 
+      name: trimmedName,
+      email: trimmedEmail,
+      message: message.trim(),
+      excitement,
+    });
 
       setSubmitted(true);
     } catch (err) {

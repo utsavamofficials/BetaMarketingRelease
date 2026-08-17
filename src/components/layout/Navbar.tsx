@@ -43,11 +43,11 @@ export function Navbar() {
         </div>
 
         <div className="hidden items-center gap-2 md:flex">
-          <Link to={ROUTES.organizerRegister}>
+          {/* <Link to={ROUTES.organizerRegister}>
             <Button variant="outline" size="sm">
               Organizer sign in
             </Button>
-          </Link>
+          </Link> */}
           <Link to={ROUTES.demo}>
             <Button size="sm">Try for Free</Button>
           </Link>
