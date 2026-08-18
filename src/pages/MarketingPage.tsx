@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { ROUTES } from '../constants/routes';
 import Hero from '../components/marketing/Hero';
+import CustomerSection from '../components/marketing/CustomerSection';
 
 export function MarketingPage() {
   return (
@@ -16,6 +17,7 @@ export function MarketingPage() {
       <Hero />
       <HowItWorks />
       <FeatureGrid />
+      <CustomerSection />
 
       <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
         <Reveal>

@@ -12,7 +12,7 @@ export function PricingTable({ compact = false }: { compact?: boolean }) {
   const plans = pricing.plans as SubscriptionPlan[];
 
   return (
-    <div className={`grid gap-6 ${compact ? 'sm:grid-cols-2' : 'sm:grid-cols-2 lg:mx-auto lg:max-w-3xl'}`}>
+    <div className={`grid gap-6 ${compact ? 'sm:grid-cols-2' : 'sm:grid-cols-1 lg:mx-auto lg:max-w-3xl'}`}>
       {plans.map((plan, index) => (
         <Reveal key={plan.id} delay={index * 0.08}>
           <div

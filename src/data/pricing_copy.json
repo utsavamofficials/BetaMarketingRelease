@@ -19,6 +19,25 @@
         "Email support"
       ],
       "highlighted": false
+    },
+    {
+      "id": "satisfy",
+      "name": "Satisfy",
+      "tagline": "For larger mandals collecting across multiple spots.",
+      "admins": 4,
+      "collectors": 7,
+      "activeSeasonMonths": 3,
+      "dataRetentionMonths": 12,
+      "priceAnnualInr": 1299,
+      "features": [
+        "Up to 4 Organizer admin accounts",
+        "Up to 7 Donation Collector seats",
+        "Unlimited digital receipts during season",
+        "QR-based receipt retrieval",
+        "12 months of reports & data access",
+        "Priority email support"
+      ],
+      "highlighted": true
     }
   ]
 }
